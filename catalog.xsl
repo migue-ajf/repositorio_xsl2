@@ -8,10 +8,10 @@
   <h2>My CD Collection</h2>
     <table border="1">
       <tr bgcolor="#9acd32">
-        <th style="text-align:left">Title</th>
-        <th style="text-align:left">Artist</th>
+        <th>Title</th>
+        <th>Artist</th>
       </tr>
-      <xsl:for-each select="catalog/cd[artist='Bob Dylan">
+      <xsl:for-each select="catalog/cd[artist='Bob Dylan'>
       <tr>
         <td><xsl:value-of select="title"/></td>
         <td><xsl:value-of select="artist"/></td>
