@@ -16,10 +16,11 @@
         <td><xsl:value-of select="catalog/cd/title"/></td>
         <td><xsl:value-of select="catalog/cd/artist"/></td>
       </tr>
-      </xsl:for-each>
+    
     </table>
   </body>
-  </html>
+  </html> 
+  </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
 
